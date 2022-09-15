@@ -1,0 +1,67 @@
+<!--3. Navigate within the page to a different section.-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section links</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100vh;
+            height: 100vh;
+        }
+        .section{
+            width: 100vh;
+            height: 40vh;
+            background-color: rgb(255, 214, 127);
+            font-size: 50px;
+            color: black;
+            text-align: center;
+            margin: 10px 5px;
+        }
+        .one,
+        .three{
+            background-color: rgb(255, 0, 98);
+        }
+        .nav{
+            width: 100vw;
+            height: 40vh;
+            background-color: #b65324;
+            font-size: x-large;
+            color: black;
+            text-align: center;
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            place-items: center;
+        }
+        .btn {
+        color: rgb(255, 255, 255);
+        background-color: #9bcc38;
+        height: 40px;
+        width: 90px;
+        padding: 3px;
+        border: 2px solid black;
+        text-decoration: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#section1" class="btn">1</a>
+        <a href="#section2" class="btn">2</a>
+        <a href="#section3" class="btn">3</a>
+        <a href="#section4" class="btn">4</a>
+    </div>
+    <div class="section one" id="section1">section1</div>
+    <div class="section two" id="section2">section2</div>
+    <div class="section three" id="section3">section3</div>
+    <div class="section four" id="section4">section4</div>
+</body>
+</html>
